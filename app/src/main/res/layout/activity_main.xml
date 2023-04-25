@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnActivity1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTIVITY 1" />
+
+    <Button
+        android:id="@+id/btnActivity2"
+        android:layout_below="@id/btnActivity1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTIVITY 2" />
+
+    <Button
+        android:id="@+id/btnActivity3"
+        android:layout_below="@id/btnActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MIDTERM EXAM" />
+
+    <Button
+        android:id="@+id/btnActivity4"
+        android:layout_below="@id/btnActivity3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMERA DEMO" />
+
+    <Button
+        android:id="@+id/btnActivity5"
+        android:layout_below="@id/btnActivity4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD RECORD DEMO" />
+
+    <Button
+        android:id="@+id/btnActivity6"
+        android:layout_below="@id/btnActivity7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OPEN GOOGLE MAP" />
+
+    <Button
+        android:id="@+id/btnActivity7"
+        android:layout_below="@id/btnActivity5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND SMS" />
+
+</RelativeLayout>
